@@ -1,0 +1,90 @@
+* {text-align: center;
+}
+
+#main {
+    background-image: url(https://www.onlygfx.com/wp-content/uploads/2015/12/simple-old-paper-1-transparent.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+
+@font-face {
+    font-family: billonaire;
+    src: url(BillionaireMediumGrunge.ttf);
+}
+
+@font-face {
+    font-family: albert;
+    src: url(AlbertsthalTypewriter.ttf);
+}
+
+#title {
+    font-family: billonaire;
+    font-size: 100px;
+}
+
+#image {
+    border-radius: 5%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#img-caption {
+    font-family: albert;
+    font-size: 25px;
+}
+
+#autor {
+    font-family: albert;    
+}
+
+#sub-title {
+    font-family: billonaire;
+    font-size: 50px;
+}
+
+li {
+    font-family: albert;
+    text-align: justify;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 10px;
+}
+
+ul {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+#year {
+    font-family: billonaire;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+cite {
+    font-style: italic;
+    font-weight: 900;
+}
+
+#quote {
+    font-family: albert;
+    font-size: 25px;
+    font-style: italic;
+    padding-left: 200px;
+    padding-right: 200px
+}
+
+#link {
+    font-family: billonaire;
+    font-size: 40px;
+}
+
+address {
+    font-family: albert;
+    line-height: 0;
+    padding-bottom: 50px;
+}
